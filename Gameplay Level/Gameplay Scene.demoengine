@@ -1,0 +1,249 @@
+Scene: Untitled Scene
+Entities:
+  - Entity: 15678317333802831981
+    TagComponent:
+      Tag: Enemy1
+    TransformComponent:
+      Translation: [-0.41067553, 26.805588, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Colour: [0.51960784, 0.07386581, 0.07386581, 1]
+    RigidBody2DComponent:
+      m_Type: 2
+      fixedRotation: true
+      mass: 1
+      CentreMass: [0, 0]
+      RotationalInertia: 1
+      Gravity: true
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      HalfExtents: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
+  - Entity: 16837985044333782987
+    TagComponent:
+      Tag: Enemy1
+    TransformComponent:
+      Translation: [-3.8033292, 17.785233, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Colour: [0.51960784, 0.07386581, 0.07386581, 1]
+    RigidBody2DComponent:
+      m_Type: 2
+      fixedRotation: true
+      mass: 1
+      CentreMass: [0, 0]
+      RotationalInertia: 1
+      Gravity: true
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      HalfExtents: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
+  - Entity: 9300129512012877423
+    TagComponent:
+      Tag: Enemy
+    TransformComponent:
+      Translation: [-9.619692, 3.7060776, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [0.8235294, 0.1695502, 0.1695502, 1]
+      Radius: 0.5
+      Thickness: 1
+      Fade: 0.177
+    RigidBody2DComponent:
+      m_Type: 2
+      fixedRotation: true
+      mass: 1
+      CentreMass: [0, 0]
+      RotationalInertia: 1
+      Gravity: false
+    CircleCollider2DComponent:
+      Offset: [0, 0]
+      Radius: 0.5
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
+  - Entity: 11705741443261584694
+    TagComponent:
+      Tag: Map
+    TransformComponent:
+      Translation: [11.650698, 1.2095386, 0]
+      Rotation: [0, 0, 1.5707964]
+      Scale: [22.799341, 0.99997944, 1]
+    SpriteRendererComponent:
+      Colour: [1, 1, 1, 1]
+    RigidBody2DComponent:
+      m_Type: 0
+      fixedRotation: false
+      mass: 1
+      CentreMass: [0, 0]
+      RotationalInertia: 1
+      Gravity: true
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      HalfExtents: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
+  - Entity: 12372363275036617809
+    TagComponent:
+      Tag: Enemy
+    TransformComponent:
+      Translation: [10.186998, 3.3608937, -6.1035156e-05]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [0.8235294, 0.1695502, 0.1695502, 1]
+      Radius: 0.5
+      Thickness: 1
+      Fade: 0.177
+    RigidBody2DComponent:
+      m_Type: 2
+      fixedRotation: true
+      mass: 1
+      CentreMass: [0, 0]
+      RotationalInertia: 1
+      Gravity: false
+    CircleCollider2DComponent:
+      Offset: [0, 0]
+      Radius: 0.5
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
+  - Entity: 201179143317308887
+    TagComponent:
+      Tag: Enemy1
+    TransformComponent:
+      Translation: [2.8503218, 21.765686, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Colour: [0.51960784, 0.07386581, 0.07386581, 1]
+    RigidBody2DComponent:
+      m_Type: 2
+      fixedRotation: true
+      mass: 1
+      CentreMass: [0, 0]
+      RotationalInertia: 1
+      Gravity: true
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      HalfExtents: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
+  - Entity: 457190746202299756
+    TagComponent:
+      Tag: Player
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Colour: [1, 1, 1, 1]
+    RigidBody2DComponent:
+      m_Type: 2
+      fixedRotation: true
+      mass: 1
+      CentreMass: [0, 0]
+      RotationalInertia: 1
+      Gravity: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      HalfExtents: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
+  - Entity: 6542840174429541936
+    TagComponent:
+      Tag: Main Camera
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: 0
+        PerspectiveFOV: 1.0471976
+        PerspectiveNear: 0.01
+        PerspectiveFar: 1000
+        OrthographicSize: 12.7
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: true
+      FixedAspectRatio: false
+  - Entity: 7717086645469683872
+    TagComponent:
+      Tag: Enemy
+    TransformComponent:
+      Translation: [0.1548354, 10.230095, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [0.8235294, 0.1695502, 0.1695502, 1]
+      Radius: 0.5
+      Thickness: 1
+      Fade: 0.177
+    RigidBody2DComponent:
+      m_Type: 2
+      fixedRotation: true
+      mass: 1
+      CentreMass: [0, 0]
+      RotationalInertia: 1
+      Gravity: false
+    CircleCollider2DComponent:
+      Offset: [0, 0]
+      Radius: 0.5
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
+  - Entity: 9778060656616430048
+    TagComponent:
+      Tag: Map
+    TransformComponent:
+      Translation: [0, -9.620735, 0]
+      Rotation: [0, 0, 0]
+      Scale: [22.8, 1, 1]
+    SpriteRendererComponent:
+      Colour: [1, 1, 1, 1]
+    RigidBody2DComponent:
+      m_Type: 0
+      fixedRotation: false
+      mass: 1
+      CentreMass: [0, 0]
+      RotationalInertia: 1
+      Gravity: true
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      HalfExtents: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
+  - Entity: 16150838829512320561
+    TagComponent:
+      Tag: Map
+    TransformComponent:
+      Translation: [-11.604549, 1.2095394, 0]
+      Rotation: [0, 0, 1.5707964]
+      Scale: [22.799662, 0.99998945, 1]
+    SpriteRendererComponent:
+      Colour: [1, 1, 1, 1]
+    RigidBody2DComponent:
+      m_Type: 0
+      fixedRotation: false
+      mass: 1
+      CentreMass: [0, 0]
+      RotationalInertia: 1
+      Gravity: true
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      HalfExtents: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
